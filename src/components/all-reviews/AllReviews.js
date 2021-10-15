@@ -107,7 +107,7 @@ export default function AllReviews() {
     return (
         <div className="all-reviews position-relative">
             <div className="img-box">
-                <img className="" src={process.env.PUBLIC_URL + "images/toa-heftiba-FV3GConVSss-unsplash.jpg"} />
+                <img className="" src={process.env.PUBLIC_URL + "/images/toa-heftiba-FV3GConVSss-unsplash.jpg"} />
             </div>
             <div className="reviews position-absolute text-center">
                 <h2 className="h1 text-uppercase text-white fw-bold mb-4">
