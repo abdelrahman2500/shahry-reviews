@@ -27,14 +27,19 @@ export default function AllReviews() {
     useEffect(()=>{
         setReviewOk(title && details ? "modal" : "")
     },[title , details])
-    
-    useEffect(()=>{
-        setTitleValid(title.trim() ? "" : "error")
-    },[title, setTitle])
 
     useEffect(()=>{
-        setDetailsValid(details.trim() ? "" : "error")
-    },[details, setDetails])
+        if(title.trim()){
+            setTitleValid("")
+        }
+    },[title])
+
+
+    useEffect(()=>{
+        if(details.trim()){
+            setDetailsValid("")
+        }
+    },[details])
     
 
     function addReview(){

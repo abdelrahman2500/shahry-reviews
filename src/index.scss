@@ -22,7 +22,7 @@ code {
 input, button, textarea{
   outline: none;
   box-shadow: none;
-  &:active,&:hover,&:focus{
+  &:active,&:focus{
     outline: none !important;
     box-shadow: none !important;
     border: 1px solid #9c9c9c !important; 
