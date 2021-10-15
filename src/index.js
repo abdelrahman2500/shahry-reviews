@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ContextProvider } from './context/ContextApi';
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "../node_modules/bootstrap/dist/js/bootstrap";
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+import "../node_modules/@fortawesome/fontawesome-free/js/all";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ContextProvider>
+      <App />
+    </ContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

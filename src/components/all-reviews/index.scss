@@ -1,0 +1,43 @@
+.all-reviews{
+    .img-box{
+        width: 100%;
+        height: 70vh;
+        img{
+            width: 100%;
+            height: 100%;
+            filter: brightness(0.5);
+        }
+    }
+    .modal{
+        h5{
+            font-size: 14px;
+        }
+    }
+    .reviews{
+        top: 0;
+        width: 100%;
+        padding-top: 80px;
+        h2{
+
+        }
+        button{
+
+        }
+        .rev-content{
+            width: 70%;
+            margin: 20px auto;
+            transition: .3s;
+            .inner-content{
+                // min-width: 345px;
+            }
+        }
+        @media(max-width: 576px){
+            .rev-content{
+                width: 85%;
+            }
+        }
+    }
+    .error{
+        border-color: red;
+    }
+}
