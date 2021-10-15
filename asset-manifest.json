@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shahry-reviews/static/css/main.cf9988eb.chunk.css",
+    "main.js": "/shahry-reviews/static/js/main.919711ca.chunk.js",
+    "main.js.map": "/shahry-reviews/static/js/main.919711ca.chunk.js.map",
+    "runtime-main.js": "/shahry-reviews/static/js/runtime-main.727fe46d.js",
+    "runtime-main.js.map": "/shahry-reviews/static/js/runtime-main.727fe46d.js.map",
+    "static/css/2.1d9813b4.chunk.css": "/shahry-reviews/static/css/2.1d9813b4.chunk.css",
+    "static/js/2.41213326.chunk.js": "/shahry-reviews/static/js/2.41213326.chunk.js",
+    "static/js/2.41213326.chunk.js.map": "/shahry-reviews/static/js/2.41213326.chunk.js.map",
+    "static/js/3.7d4ed1d6.chunk.js": "/shahry-reviews/static/js/3.7d4ed1d6.chunk.js",
+    "static/js/3.7d4ed1d6.chunk.js.map": "/shahry-reviews/static/js/3.7d4ed1d6.chunk.js.map",
+    "index.html": "/shahry-reviews/index.html",
+    "static/css/2.1d9813b4.chunk.css.map": "/shahry-reviews/static/css/2.1d9813b4.chunk.css.map",
+    "static/css/main.cf9988eb.chunk.css.map": "/shahry-reviews/static/css/main.cf9988eb.chunk.css.map",
+    "static/js/2.41213326.chunk.js.LICENSE.txt": "/shahry-reviews/static/js/2.41213326.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/shahry-reviews/static/media/fa-solid-900.eeccf4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.727fe46d.js",
+    "static/css/2.1d9813b4.chunk.css",
+    "static/js/2.41213326.chunk.js",
+    "static/css/main.cf9988eb.chunk.css",
+    "static/js/main.919711ca.chunk.js"
+  ]
+}
