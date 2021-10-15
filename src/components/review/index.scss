@@ -10,6 +10,9 @@
     }
     .review-data{
         overflow: hidden;
+        h3, .details{
+            word-break: break-all
+        }
     }
     .rating{
         .thumb{
@@ -25,6 +28,9 @@
         background-color: #EEE;
         margin-bottom: 50px;
         border-radius: 10px;
+        P{
+            word-break: break-all
+        }
         .img-box{
             width: 48px;
             height: 48px;
